@@ -29,6 +29,14 @@ function stepsText(className) {
         $('#' + name).removeClass(itemName + "__wrapper-text--false")
     })
 }
+function smoothScroll(top) {
+    let name = $('#'+top)
+    window.scroll({
+        top: name.offset().top, 
+        left: 0, 
+        behavior: 'smooth'
+      });
+}
 
 $(document).ready(function () {
     stepsText("settings")

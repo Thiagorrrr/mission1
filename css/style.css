@@ -1,3 +1,4 @@
+/* init remover esse bloco */
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 @font-face {
@@ -37,21 +38,26 @@
     font-weight: normal;
     src: local('URWClassico Bold Italic'), url('../fonts/URWClassico-BoldItalic.woff') format('woff');
 }
-.menu {
+
+/* fim remover  */
+
+#education-misssion-1 .menu {
     background-color: #F8F8F8;
 }
-@media screen and (min-width: 768px) {  
-    .menu {
+
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu {
         padding-bottom: 50px;
     }
 }
-.menu__container {
+
+#education-misssion-1 .menu__container {
     padding: 0;
     background-color: #F8F8F8;
 }
 
-@media screen and (min-width: 768px) { 
-    .menu__container {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__container {
         padding-left: 15px;
         padding-right: 15px;
         display: flex;
@@ -61,33 +67,33 @@
 
 }
 
-.menu__card-header {
+#education-misssion-1 .menu__card-header {
     background: #F8F8F8;
     border: 0;
 }
 
-@media screen and (min-width: 768px) {  
-    .menu__card-header {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__card-header {
         padding: 15px 0;
     }
 }
 
-.menu__card {
-   border-radius: 0;
-   border: 0;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #C1C1C1;
+#education-misssion-1 .menu__card {
+    border-radius: 0;
+    border: 0;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #C1C1C1;
 }
 
-@media screen and (min-width: 768px) { 
-    .menu__card {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__card {
         position: initial;
         border-bottom: 0;
     }
 }
 
 
-.menu__btn {
+#education-misssion-1 .menu__btn {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -106,25 +112,25 @@
     position: relative;
 }
 
-.menu__btn-link:hover,
-.menu__btn.collapsed:hover,
-.menu__btn:hover {
+#education-misssion-1 .menu__btn-link:hover,
+#education-misssion-1 .menu__btn.collapsed:hover,
+#education-misssion-1 .menu__btn:hover {
     text-decoration: none;
 }
 
 
-.menu__btn--link.collapsed:after {
+#education-misssion-1 .menu__btn--link.collapsed:after {
     transition: transform ease-in-out 200ms;
     transform: rotate(-60deg);
 }
 
-@media screen and (min-width: 768px) { 
-    .menu__btn--link.collapsed:after {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__btn--link.collapsed:after {
         display: none;
-     }   
+    }
 }
 
-.menu__btn--link::after {
+#education-misssion-1 .menu__btn--link::after {
     position: absolute;
     content: "";
     bottom: 5px;
@@ -139,40 +145,40 @@
     border-top: 8px solid #868686;
 }
 
-@media screen and (min-width: 768px) { 
-    .menu__btn--link::after { 
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__btn--link::after {
         bottom: -24px;
         right: initial;
     }
 
 }
 
-.menu__btn.collapsed .menu__btn-link,
-.menu__btn.collapsed {
+#education-misssion-1 .menu__btn.collapsed .menu__btn-link,
+#education-misssion-1 .menu__btn.collapsed {
     color: #7faf87;
 }
 
-.menu__btn.collapsed .menu__btn-link:hover {
+#education-misssion-1 .menu__btn.collapsed .menu__btn-link:hover {
     color: #000;
 }
 
-.menu__btn .menu__btn-link {
-    color:#000;
+#education-misssion-1 .menu__btn .menu__btn-link {
+    color: #000;
 }
 
-.menu__list-item {
+#education-misssion-1 .menu__list-item {
     width: 100%;
     padding-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {  
-    .menu__list-item {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__list-item {
         padding-bottom: 0;
         width: auto;
-    }   
+    }
 }
 
-.menu__list {
+#education-misssion-1 .menu__list {
     padding: 0;
     list-style: none;
     display: flex;
@@ -184,8 +190,8 @@
 }
 
 
-@media screen and (min-width: 768px) {  
-    .menu__list {
+@media screen and (min-width: 768px) {
+    #education-misssion-1 .menu__list {
         flex-direction: row;
         justify-content: space-between;
         position: absolute;
@@ -199,7 +205,7 @@
 
 }
 
-.menu__link {
+#education-misssion-1 .menu__link {
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
@@ -214,44 +220,42 @@
     color: #000;
 }
 
-.menu__link:focus,
-.menu__btn:focus,
-.menu__link:hover,
-.menu__btn:hover{
+#education-misssion-1 .menu__link:focus,
+#education-misssion-1 .menu__btn:focus,
+#education-misssion-1 .menu__link:hover,
+#education-misssion-1 .menu__btn:hover {
     outline: transparent;
     color: #000;
     text-decoration: none;
 }
 
-
-
 /* init the4cs */
 
 @media screen and (min-width: 768px) {
-    .the4cs {
+    #education-misssion-1 .the4cs {
         border-bottom: 0.5px solid #C1C1C1;
     }
 }
 
-.the4cs__wrapper {
+#education-misssion-1 .the4cs__wrapper {
     border-bottom: 0.5px solid #C1C1C1;
 }
 
 
 @media screen and (min-width: 768px) {
-    .the4cs__wrapper {
+    #education-misssion-1 .the4cs__wrapper {
         border-bottom: 0;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .the4cs__wrapper {
+    #education-misssion-1 .the4cs__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.the4cs__title {
+#education-misssion-1 .the4cs__title {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -265,18 +269,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .the4cs__title {
+    #education-misssion-1 .the4cs__title {
         font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .the4cs__title {
+    #education-misssion-1 .the4cs__title {
         font-size: 36px;
     }
 }
 
-.the4cs__subtitle {
+#education-misssion-1 .the4cs__subtitle {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -292,12 +296,12 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .the4cs__subtitle {
+    #education-misssion-1 .the4cs__subtitle {
         font-size: 16px;
     }
 }
 
-.the4cs__box-imgs {
+#education-misssion-1 .the4cs__box-imgs {
     padding: 30px 0 40px 0;
     display: flex;
     justify-content: center;
@@ -305,35 +309,35 @@
 }
 
 @media screen and (min-width: 768px) {
-    .the4cs__box-imgs {
+    #education-misssion-1 .the4cs__box-imgs {
         padding: 40px 0;
         flex-direction: row;
     }
 }
 
-.the4cs__img {
+#education-misssion-1 .the4cs__img {
     padding-bottom: 23px;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-    .the4cs__img {
+    #education-misssion-1 .the4cs__img {
         padding-bottom: 0;
     }
 }
 
-.the4cs__img img {
+#education-misssion-1 .the4cs__img img {
     max-height: 65px;
 }
 
 @media screen and (min-width: 768px) {
-    .the4cs__img img {
+    #education-misssion-1 .the4cs__img img {
         max-height: initial;
     }
 }
 
-.the4cs__img:last-child {
+#education-misssion-1 .the4cs__img:last-child {
     padding-bottom: 0;
 }
 
@@ -342,27 +346,27 @@
 /* init cut */
 
 @media screen and (min-width: 1200px) {
-    .cut__wrapper {
+    #education-misssion-1 .cut__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.cut__principal-text {
+#education-misssion-1 .cut__principal-text {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-    .cut__principal-text {
+    #education-misssion-1 .cut__principal-text {
         flex-direction: row;
         align-items: center;
     }
 
 }
 
-.cut__title {
+#education-misssion-1 .cut__title {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -375,18 +379,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cut__title {
+    #education-misssion-1 .cut__title {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .cut__title {
+    #education-misssion-1 .cut__title {
         margin-bottom: 8px;
     }
 }
 
-.cut__subtitle {
+#education-misssion-1 .cut__subtitle {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -402,18 +406,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cut__subtitle {
+    #education-misssion-1 .cut__subtitle {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .cut__subtitle {
+    #education-misssion-1 .cut__subtitle {
         margin-left: 20px;
     }
 }
 
-.cut__info {
+#education-misssion-1 .cut__info {
     font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: normal;
@@ -428,12 +432,12 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cut__info {
+    #education-misssion-1 .cut__info {
         text-align: left;
     }
 }
 
-.cut__box-imgs {
+#education-misssion-1 .cut__box-imgs {
     padding: 0 0 40px 0;
     display: flex;
     justify-content: center;
@@ -441,45 +445,46 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cut__box-imgs {
+    #education-misssion-1 .cut__box-imgs {
         flex-direction: row;
     }
 }
 
-.cut__img {
+#education-misssion-1 .cut__img {
     padding-bottom: 23px;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-    .cut__img {
+    #education-misssion-1 .cut__img {
         padding-bottom: 0;
     }
 }
 
-.cut__img img {
+#education-misssion-1 .cut__img img {
     max-height: 65px;
 }
 
 @media screen and (min-width: 768px) {
-    .cut__img img {
+    #education-misssion-1 .cut__img img {
         max-height: 113px;
         margin-right: 10px;
     }
 }
+
 @media screen and (min-width: 1200px) {
-    .cut__img img {
+    #education-misssion-1 .cut__img img {
         max-height: initial;
     }
 }
 
-.cut__img:last-child {
+#education-misssion-1 .cut__img:last-child {
     padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .cut__img:last-child {
+    #education-misssion-1 .cut__img:last-child {
         padding-left: 10px;
         border-left: 0.5px solid #C1C1C1;
     }
@@ -490,34 +495,32 @@
 /* init color */
 
 @media screen and (min-width: 1200px) {
-    .color__wrapper {
+    #education-misssion-1 .color__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .color__wrapper-text {
+    #education-misssion-1 .color__wrapper-text {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.color__principal-text {
+#education-misssion-1 .color__principal-text {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-    .color__principal-text {
+    #education-misssion-1 .color__principal-text {
         flex-direction: row;
         align-items: center;
     }
-
 }
 
-
-.color__title {
+#education-misssion-1 .color__title {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -530,18 +533,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .color__title {
+    #education-misssion-1 .color__title {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .color__title {
+    #education-misssion-1 .color__title {
         margin-bottom: 8px;
     }
 }
 
-.color__subtitle {
+#education-misssion-1 .color__subtitle {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -557,18 +560,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .color__subtitle {
+    #education-misssion-1 .color__subtitle {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .color__subtitle {
+    #education-misssion-1 .color__subtitle {
         margin-left: 20px;
     }
 }
 
-.color__info {
+#education-misssion-1 .color__info {
     font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: normal;
@@ -583,18 +586,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .color__info {
+    #education-misssion-1 .color__info {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .color__info {
+    #education-misssion-1 .color__info {
         width: 349px;
     }
 }
 
-.color__box-imgs {
+#education-misssion-1 .color__box-imgs {
     padding: 0 0 40px 0;
     display: flex;
     justify-content: center;
@@ -602,78 +605,74 @@
 }
 
 @media screen and (min-width: 768px) {
-    .color__box-imgs {
+    #education-misssion-1 .color__box-imgs {
         flex-direction: row;
         justify-content: left;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .color__box-imgs {
+    #education-misssion-1 .color__box-imgs {
         padding: 20px 0 40px 0;
     }
 }
 
-.color__img {
+#education-misssion-1 .color__img {
     padding-bottom: 23px;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-    .color__img {
+    #education-misssion-1 .color__img {
         padding-bottom: 0;
     }
 }
 
-.color__img img {
+#education-misssion-1 .color__img img {
     max-height: initial;
 }
 
 @media screen and (min-width: 768px) {
-    .color__img img {
-
+    #education-misssion-1 .color__img img {
         margin-right: 10px;
     }
 }
 
-.color__img:last-child {
+#education-misssion-1 .color__img:last-child {
     padding-bottom: 0;
 }
 
 /* fim color */
-
 /* init clarity */
 
-
 @media screen and (min-width: 1200px) {
-    .clarity__wrapper {
+    #education-misssion-1 .clarity__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .clarity__wrapper-text {
+    #education-misssion-1 .clarity__wrapper-text {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.clarity__principal-text {
+#education-misssion-1 .clarity__principal-text {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-    .clarity__principal-text {
+    #education-misssion-1 .clarity__principal-text {
         flex-direction: row;
         align-items: center;
     }
-
 }
 
-.clarity__title {
+#education-misssion-1 .clarity__title {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -686,18 +685,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .clarity__title {
+    #education-misssion-1 .clarity__title {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .clarity__title {
+    #education-misssion-1 .clarity__title {
         margin-bottom: 8px;
     }
 }
 
-.clarity__subtitle {
+#education-misssion-1 .clarity__subtitle {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -713,18 +712,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .clarity__subtitle {
+    #education-misssion-1 .clarity__subtitle {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .clarity__subtitle {
+    #education-misssion-1 .clarity__subtitle {
         margin-left: 20px;
     }
 }
 
-.clarity__info {
+#education-misssion-1 .clarity__info {
     font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: normal;
@@ -739,29 +738,27 @@
 }
 
 @media screen and (min-width: 768px) {
-    .clarity__info {
+    #education-misssion-1 .clarity__info {
         text-align: left;
     }
 }
 
-
 /* fim clarity */
-
 /* init type */
 
-.type {
+#education-misssion-1 .type {
     padding-bottom: 40px;
     margin-top: 10px;
 }
 
 @media screen and (min-width: 1200px) {
-    .type__wrapper {
+    #education-misssion-1 .type__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.type__list {
+#education-misssion-1 .type__list {
     padding: 0;
     list-style: none;
     max-width: 100%;
@@ -770,13 +767,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .type__list {
+    #education-misssion-1 .type__list {
         border-bottom: 1px solid #C1C1C1;
         margin-bottom: 35px;
     }
 }
 
-.type__title {
+#education-misssion-1 .type__title {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -788,11 +785,11 @@
     color: #3399CC;
 }
 
-.type__title:hover {
+#education-misssion-1 .type__title:hover {
     color: #000;
 }
 
-.type__list-item {
+#education-misssion-1 .type__list-item {
     display: flex;
     position: relative;
     width: 58px;
@@ -803,16 +800,16 @@
 }
 
 @media screen and (min-width: 768px) {
-    .type__list-item {
+    #education-misssion-1 .type__list-item {
         border-bottom: 0;
     }
 }
 
-.type__list-item.type__list-item--true .type__title {
+#education-misssion-1 .type__list-item.type__list-item--true .type__title {
     color: #000;
 }
 
-.type__list-item.type__list-item--true::after {
+#education-misssion-1 .type__list-item.type__list-item--true::after {
     position: absolute;
     content: "";
     bottom: -8px;
@@ -824,7 +821,7 @@
     border-top: 8px solid #868686;
 }
 
-.type__name {
+#education-misssion-1 .type__name {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -837,20 +834,20 @@
 
 
 @media screen and (min-width: 768px) {
-    .type__name {
+    #education-misssion-1 .type__name {
         font-size: 22px;
         line-height: 30px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .type__name {
+    #education-misssion-1 .type__name {
         font-size: 24px;
         line-height: 32px;
     }
 }
 
-.type__info {
+#education-misssion-1 .type__info {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -862,34 +859,34 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .type__info {
+    #education-misssion-1 .type__info {
         max-width: 349px;
         padding: 20px 0 0px 0px;
     }
 }
 
-.type__img img {
+#education-misssion-1 .type__img img {
     max-height: 90px;
 }
 
 @media screen and (min-width: 768px) {
-    .type__img img {
+    #education-misssion-1 .type__img img {
         max-height: initial
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .type__wrapper-box {
+    #education-misssion-1 .type__wrapper-box {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.type__wrapper-text.type__wrapper-text--true {
+#education-misssion-1 .type__wrapper-text.type__wrapper-text--true {
     display: block;
 }
 
-.type__wrapper-text.type__wrapper-text--false {
+#education-misssion-1 .type__wrapper-text.type__wrapper-text--false {
     display: none;
 }
 
@@ -898,7 +895,7 @@
 /* init carat */
 
 @media screen and (min-width: 1200px) {
-    .carat__wrapper {
+    #education-misssion-1 .carat__wrapper {
         max-width: 949px;
         margin: 0 auto;
         display: flex;
@@ -907,25 +904,25 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .carat__wrapper-text {
+    #education-misssion-1 .carat__wrapper-text {
         display: flex;
         flex-direction: column;
     }
 }
 
-.carat__principal-text {
+#education-misssion-1 .carat__principal-text {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-    .carat__principal-text {
+    #education-misssion-1 .carat__principal-text {
         flex-direction: row;
         align-items: center;
     }
 }
 
-.carat__title {
+#education-misssion-1 .carat__title {
     font-family: 'URWClassico';
     font-style: normal;
     font-weight: normal;
@@ -937,18 +934,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .carat__title {
+    #education-misssion-1 .carat__title {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .carat__title {
+    #education-misssion-1 .carat__title {
         margin-bottom: 8px;
     }
 }
 
-.carat__subtitle {
+#education-misssion-1 .carat__subtitle {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -962,18 +959,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .carat__subtitle {
+    #education-misssion-1 .carat__subtitle {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .carat__subtitle {
+    #education-misssion-1 .carat__subtitle {
         margin-left: 20px;
     }
 }
 
-.carat__info {
+#education-misssion-1 .carat__info {
     font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: normal;
@@ -988,63 +985,63 @@
 }
 
 @media screen and (min-width: 768px) {
-    .carat__info {
+    #education-misssion-1 .carat__info {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .carat__info {
+    #education-misssion-1 .carat__info {
         width: 349px;
     }
 }
 
-.carat__box-imgs {
+#education-misssion-1 .carat__box-imgs {
     padding: 0 0 40px 0;
 }
 
 @media screen and (min-width: 1200px) {
-    .carat__box-imgs {
+    #education-misssion-1 .carat__box-imgs {
         padding: 20px 0 40px 0;
     }
 }
 
-.carat__img {
+#education-misssion-1 .carat__img {
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-    .carat__img {
+    #education-misssion-1 .carat__img {
         justify-content: initial;
     }
 }
 
-.carat__img img {
+#education-misssion-1 .carat__img img {
     max-height: 130px;
 }
 
 @media screen and (min-width: 768px) {
-    .carat__img img {
+    #education-misssion-1 .carat__img img {
         max-height: initial;
     }
 }
 
 /* init  diamond */
 
-.diamond {
+#education-misssion-1 .diamond {
     padding: 40px 0;
     background-color: #DBE3E5;
 }
 
 @media screen and (min-width: 1200px) {
-    .diamond__wrapper {
+    #education-misssion-1 .diamond__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.diamond__title {
+#education-misssion-1 .diamond__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1057,22 +1054,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__title {
+    #education-misssion-1 .diamond__title {
         font-size: 24px;
         line-height: 32px;
-
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .diamond__title {
+    #education-misssion-1 .diamond__title {
         font-size: 26px;
         line-height: 35px;
-
     }
 }
 
-.diamond__subTitle {
+#education-misssion-1 .diamond__subTitle {
     font-family: "Avenir LT Std";
     font-style: normal;
     font-weight: normal;
@@ -1087,8 +1082,7 @@
     color: #000;
 }
 
-
-.diamond__list {
+#education-misssion-1 .diamond__list {
     padding: 0;
     flex-wrap: wrap;
     display: flex;
@@ -1096,7 +1090,7 @@
     list-style: none;
 }
 
-.diamond__info {
+#education-misssion-1 .diamond__info {
     font-family: "Avenir LT Std";
     font-style: normal;
     font-weight: normal;
@@ -1111,19 +1105,18 @@
 }
 
 @media screen and (min-width: 768px) {
-
-    .diamond__info {
+    #education-misssion-1 .diamond__info {
         text-align: left;
         padding: 30px 0;
 
     }
 
-    .diamond__wrapper-box .diamond__info {
+    #education-misssion-1 .diamond__wrapper-box .diamond__info {
         padding: 20px 0px 40px 0;
     }
 }
 
-.diamond__list-title {
+#education-misssion-1 .diamond__list-title {
     font-family: "Avenir";
     font-style: normal;
     font-weight: 500;
@@ -1137,22 +1130,21 @@
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__list-title {
+    #education-misssion-1 .diamond__list-title {
         font-size: 12px;
         line-height: 20px;
-
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .diamond__list-title {
+    #education-misssion-1 .diamond__list-title {
         margin-top: 20px;
         margin-bottom: 30px;
 
     }
 }
 
-.diamond__list-item {
+#education-misssion-1 .diamond__list-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1162,61 +1154,60 @@
     padding-bottom: 20px;
 }
 
-.diamond__list-item:hover .diamond__list-title {
+#education-misssion-1 .diamond__list-item:hover .diamond__list-title {
     color: #000;
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__list-item {
+    #education-misssion-1 .diamond__list-item {
         padding-bottom: 0;
     }
 }
 
-.diamond__list-item.diamond__list-item--true .diamond__list-title {
+#education-misssion-1 .diamond__list-item.diamond__list-item--true .diamond__list-title {
     color: #000;
 }
 
-.diamond__wrapper-text {
+#education-misssion-1 .diamond__wrapper-text {
     border-top: 0.5px solid #C1C1C1;
 }
 
-.diamond__wrapper-text--false {
+#education-misssion-1 .diamond__wrapper-text--false {
     display: none;
 }
 
-.diamond__wrapper-text--true {
+#education-misssion-1 .diamond__wrapper-text--true {
     display: block;
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__wrapper-text--true {
+    #education-misssion-1 .diamond__wrapper-text--true {
         display: flex;
         padding: 30px 0 0 0;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .diamond__wrapper-text--true {
+    #education-misssion-1 .diamond__wrapper-text--true {
         align-items: center;
-
     }
 }
 
-.diamond__box-imgs {
+#education-misssion-1 .diamond__box-imgs {
     display: flex;
     justify-content: center;
     padding: 30px 0 20px 0;
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__box-imgs {
+    #education-misssion-1 .diamond__box-imgs {
         padding: 0;
         margin-right: 30px;
         margin-top: 5px;
     }
 }
 
-.diamond__name {
+#education-misssion-1 .diamond__name {
     font-family: "URWClassico";
     font-style: normal;
     font-weight: normal;
@@ -1230,31 +1221,31 @@
 }
 
 @media screen and (min-width: 768px) {
-    .diamond__name {
+    #education-misssion-1 .diamond__name {
         padding-bottom: 0;
         text-align: initial;
     }
 }
 
 
-.diamond__link {
+#education-misssion-1 .diamond__link {
     color: #3399cc
 }
 
 /*  init putting */
 
-.putting {
+#education-misssion-1 .putting {
     padding: 40px 0 60px 0;
 }
 
 @media screen and (min-width: 1200px) {
-    .putting__wrapper {
+    #education-misssion-1 .putting__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.putting__title {
+#education-misssion-1 .putting__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1266,13 +1257,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .putting__title {
+    #education-misssion-1 .putting__title {
         font-size: 24px;
         line-height: 38px;
     }
 }
 
-.putting__subTitle {
+#education-misssion-1 .putting__subTitle {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1285,13 +1276,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .putting__subTitle {
+    #education-misssion-1 .putting__subTitle {
         font-size: 16px;
         line-height: 27px;
     }
 }
 
-.putting__list {
+#education-misssion-1 .putting__list {
     padding: 0;
     margin-top: 30px;
     list-style: none;
@@ -1302,17 +1293,17 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .putting__list {
+    #education-misssion-1 .putting__list {
         flex-direction: row;
     }
 }
 
-.putting__list-item {
+#education-misssion-1 .putting__list-item {
     max-width: 350px;
     width: 100%;
 }
 
-.putting__link {
+#education-misssion-1 .putting__link {
     background: #3399CC;
     padding: 8px;
     color: #fff;
@@ -1333,30 +1324,30 @@
 }
 
 @media screen and (min-width: 768px) {
-    .putting__link {
+    #education-misssion-1 .putting__link {
         padding: 10px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .putting__link {
+    #education-misssion-1 .putting__link {
         padding: 15px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .putting__link {
+    #education-misssion-1 .putting__link {
         width: 90%;
     }
 }
 
-.putting__link:hover {
+#education-misssion-1 .putting__link:hover {
     text-decoration: none;
     color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
-    .putting__link:hover {
+    #education-misssion-1 .putting__link:hover {
         background: #0067AB;
     }
 }
@@ -1364,23 +1355,23 @@
 /* fim putting */
 /* init conflict */
 
-.conflict {
+#education-misssion-1 .conflict {
     background-color: #DBE3E5;
     padding: 40px 0;
 }
 
 @media screen and (min-width: 1200px) {
-    .conflict__wrapper {
+    #education-misssion-1 .conflict__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.conflict a:not([href]):not([tabindex]) {
+#education-misssion-1 .conflict a:not([href]):not([tabindex]) {
     color: #fff;
 }
 
-.conflict__title {
+#education-misssion-1 .conflict__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1392,14 +1383,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conflict__title {
+    #education-misssion-1 .conflict__title {
         font-size: 24px;
         line-height: 32px;
     }
 }
 
 
-.conflict__subTitle {
+#education-misssion-1 .conflict__subTitle {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1415,7 +1406,7 @@
     padding-bottom: 20px;
 }
 
-.conflict__box-title {
+#education-misssion-1 .conflict__box-title {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -1428,12 +1419,12 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conflict__box-title {
+    #education-misssion-1 .conflict__box-title {
         text-align: left;
     }
 }
 
-.conflict__paragraph {
+#education-misssion-1 .conflict__paragraph {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1446,12 +1437,12 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conflict__paragraph {
+    #education-misssion-1 .conflict__paragraph {
         text-align: left;
     }
 }
 
-.conflict__info-box-title {
+#education-misssion-1 .conflict__info-box-title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1466,18 +1457,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conflict__info-box-title {
+    #education-misssion-1 .conflict__info-box-title {
         font-size: 22px;
         line-height: 30px;
     }
 }
 
-.conflict__btn {
+#education-misssion-1 .conflict__btn {
     display: flex;
     justify-content: center;
 }
 
-.conflict__link {
+#education-misssion-1 .conflict__link {
     background: #3399CC;
     padding: 8px;
     color: #fff;
@@ -1500,43 +1491,43 @@
 }
 
 @media screen and (min-width: 768px) {
-    .conflict__link {
+    #education-misssion-1 .conflict__link {
         max-width: 350px;
         padding: 10px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .conflict__link {
+    #education-misssion-1 .conflict__link {
         padding: 15px;
     }
 }
 
-.conflict__link:hover {
+#education-misssion-1 .conflict__link:hover {
     text-decoration: none;
     color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
-    .conflict__link:hover {
+    #education-misssion-1 .conflict__link:hover {
         background: #0067AB;
     }
 }
 
 /* fim conflict */
 /* init buy */
-.buy {
+#education-misssion-1 .buy {
     padding: 40px 0;
 }
 
 @media screen and (min-width: 1200px) {
-    .buy__wrapper {
+    #education-misssion-1 .buy__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.buy__title {
+#education-misssion-1 .buy__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1548,20 +1539,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .buy__title {
+    #education-misssion-1 .buy__title {
         font-size: 24px;
         line-height: 32px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .buy__title {
+    #education-misssion-1 .buy__title {
         font-size: 26px;
         line-height: 35px;
     }
 }
 
-.buy__subTitle {
+#education-misssion-1 .buy__subTitle {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1574,21 +1565,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__subTitle {
+    #education-misssion-1 .buy__subTitle {
         margin-bottom: 30px;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
-    .buy__wrapper-info {
+    #education-misssion-1 .buy__wrapper-info {
         display: flex;
         flex-wrap: wrap;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__box-text.buy__box-test--right {
+    #education-misssion-1 .buy__box-text.buy__box-test--right {
         width: 40%;
         order: 3;
         padding-left: 30px;
@@ -1597,63 +1588,65 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__box-text.buy__box-text--left {
+    #education-misssion-1 .buy__box-text.buy__box-text--left {
         width: 60%;
         order: 2;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__img.buy__img--map {
+    #education-misssion-1 .buy__img.buy__img--map {
         order: 1;
     }
 }
 
-.buy__img {
+#education-misssion-1 .buy__img {
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-    .buy__img {
+    #education-misssion-1 .buy__img {
         justify-content: initial;
     }
 }
 
-.buy__img img {
+#education-misssion-1 .buy__img img {
     max-height: 118px;
     margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .buy__img img {
+    #education-misssion-1 .buy__img img {
         max-height: 155px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__img img {
+    #education-misssion-1 .buy__img img {
         max-height: 223px;
     }
 
-    .buy__img.buy__img--map img {
+    #education-misssion-1 .buy__img.buy__img--map img {
         max-height: initial;
     }
 }
 
-.buy__img.buy__img--right img {
+#education-misssion-1 .buy__img.buy__img--right img {
     max-height: 180px;
 }
+
 @media screen and (min-width: 1024px) {
-    .buy__img.buy__img--right img {
+    #education-misssion-1 .buy__img.buy__img--right img {
         max-height: 225px;
     }
 }
-.buy__box-text {
+
+#education-misssion-1 .buy__box-text {
     margin-top: 10px;
 }
 
-.buy__box-title {
+#education-misssion-1 .buy__box-title {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -1666,12 +1659,12 @@
 
 
 @media screen and (min-width: 768px) {
-    .buy__box-title {
+    #education-misssion-1 .buy__box-title {
         text-align: left;
     }
 }
 
-.buy__paragraph {
+#education-misssion-1 .buy__paragraph {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1684,33 +1677,31 @@
 }
 
 @media screen and (min-width: 768px) {
-    .buy__paragraph {
+    #education-misssion-1 .buy__paragraph {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .buy__paragraph.buy__paragraph--right {
+    #education-misssion-1 .buy__paragraph.buy__paragraph--right {
         padding-right: 130px;
     }
 }
 
-
 /* init certificates */
-
-.certificates {
+#education-misssion-1 .certificates {
     padding: 40px 0;
     background-color: #DBE3E5;
 }
 
 @media screen and (min-width: 1200px) {
-    .certificates__wrapper {
+    #education-misssion-1 .certificates__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.certificates__title {
+#education-misssion-1 .certificates__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1722,14 +1713,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .certificates__title {
+    #education-misssion-1 .certificates__title {
         font-size: 26px;
         line-height: 35px;
     }
-
 }
 
-.certificates__subTitle {
+#education-misssion-1 .certificates__subTitle {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1742,7 +1732,7 @@
     color: #000000;
 }
 
-.certificates__list {
+#education-misssion-1 .certificates__list {
     padding: 0;
     list-style: none;
     max-width: 100%;
@@ -1752,13 +1742,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .certificates__list {
+    #education-misssion-1 .certificates__list {
         margin-bottom: 35px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .certificates__wrapper-box {
+    #education-misssion-1 .certificates__wrapper-box {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1766,12 +1756,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .certificates__wrapper-box {
+    #education-misssion-1 .certificates__wrapper-box {
         flex-direction: row;
     }
 }
 
-.certificates__list-title {
+#education-misssion-1 .certificates__list-title {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -1782,11 +1772,11 @@
     color: #3399CC;
 }
 
-.certificates__list-title:hover {
+#education-misssion-1 .certificates__list-title:hover {
     color: #000;
 }
 
-.certificates__list-item {
+#education-misssion-1 .certificates__list-item {
     display: flex;
     position: relative;
     width: 58px;
@@ -1796,11 +1786,11 @@
 }
 
 
-.certificates__list-item.certificates__list-item--true .certificates__list-title {
+#education-misssion-1 .certificates__list-item.certificates__list-item--true .certificates__list-title {
     color: #000;
 }
 
-.certificates__list-item.certificates__list-item--true::after {
+#education-misssion-1 .certificates__list-item.certificates__list-item--true::after {
     position: absolute;
     content: "";
     bottom: -8px;
@@ -1812,7 +1802,7 @@
     border-top: 8px solid #868686;
 }
 
-.certificates__info {
+#education-misssion-1 .certificates__info {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -1824,50 +1814,50 @@
 }
 
 @media screen and (min-width: 768px) {
-    .certificates__info {
+    #education-misssion-1 .certificates__info {
         padding: 0 0 30px 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .certificates__info {
+    #education-misssion-1 .certificates__info {
         padding: 0px 30px 0px 0px;
     }
 }
 
-.certificates__info--warning {
+#education-misssion-1 .certificates__info--warning {
     color: #ff0000;
     padding-top: 20px;
 }
 
 @media screen and (min-width: 1200px) {
-    .certificates__info--warning {
+    #education-misssion-1 .certificates__info--warning {
         padding-top: 20px;
     }
 }
 
-.certificates__img img {
+#education-misssion-1 .certificates__img img {
     max-height: 380px;
 }
 
 @media screen and (min-width: 1200px) {
-    .certificates__wrapper-box {
+    #education-misssion-1 .certificates__wrapper-box {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.certificates__warning {
+#education-misssion-1 .certificates__warning {
     max-height: 10px;
     margin-top: 5px;
     margin-right: 5px;
 }
 
-.certificates__wrapper-text.certificates__wrapper-text--true {
+#education-misssion-1 .certificates__wrapper-text.certificates__wrapper-text--true {
     display: block;
 }
 
-.certificates__wrapper-text.certificates__wrapper-text--false {
+#education-misssion-1 .certificates__wrapper-text.certificates__wrapper-text--false {
     display: none;
 }
 
@@ -1878,18 +1868,18 @@
 /* init settings */
 
 
-.settings {
+#education-misssion-1 .settings {
     padding: 40px 0;
 }
 
 @media screen and (min-width: 1200px) {
-    .settings__wrapper {
+    #education-misssion-1 .settings__wrapper {
         max-width: 949px;
         margin: 0 auto;
     }
 }
 
-.settings__title {
+#education-misssion-1 .settings__title {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1901,14 +1891,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .settings__title {
+    #education-misssion-1 .settings__title {
         font-size: 26px;
         line-height: 35px;
     }
 
 }
 
-.settings__name {
+#education-misssion-1 .settings__name {
     font-family: URWClassico;
     font-style: normal;
     font-weight: normal;
@@ -1923,13 +1913,13 @@
 
 @media screen and (min-width: 768px) {
 
-    .settings__name {
+    #education-misssion-1 .settings__name {
         margin-top: 0;
         text-align: left;
     }
 }
 
-.settings__subTitle {
+#education-misssion-1 .settings__subTitle {
     font-family: Avenir LT Std;
     font-style: normal;
     font-weight: normal;
@@ -1943,7 +1933,7 @@
     color: #000000;
 }
 
-.settings__list {
+#education-misssion-1 .settings__list {
     padding: 0;
     list-style: none;
     max-width: 100%;
@@ -1953,14 +1943,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .settings__list {
+    #education-misssion-1 .settings__list {
         margin-bottom: 35px;
         border-bottom: 1px solid #C1C1C1;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .settings__wrapper-box {
+    #education-misssion-1 .settings__wrapper-box {
         display: flex;
         justify-content: space-between;
         align-items: initial;
@@ -1968,12 +1958,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .settings__wrapper-box {
+    #education-misssion-1 .settings__wrapper-box {
         align-items: center;
     }
 }
 
-.settings__list-title {
+#education-misssion-1 .settings__list-title {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -1983,10 +1973,9 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #3399CC;
-
 }
 
-.settings__list-item {
+#education-misssion-1 .settings__list-item {
     display: flex;
     position: relative;
     padding-right: 20px;
@@ -1997,20 +1986,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .settings__list-item {
+    #education-misssion-1 .settings__list-item {
         border-bottom: 0;
     }
 }
 
-.settings__list-title:hover {
+#education-misssion-1 .settings__list-title:hover {
     color: #000;
 }
 
-.settings__list-item.settings__list-item--true .settings__list-title {
+#education-misssion-1 .settings__list-item.settings__list-item--true .settings__list-title {
     color: #000;
 }
 
-.settings__list-item.settings__list-item--true::after {
+#education-misssion-1 .settings__list-item.settings__list-item--true::after {
     position: absolute;
     content: "";
     bottom: -8px;
@@ -2022,7 +2011,7 @@
     border-top: 8px solid #868686;
 }
 
-.settings__info {
+#education-misssion-1 .settings__info {
     display: block;
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -2034,51 +2023,50 @@
 }
 
 @media screen and (min-width: 768px) {
-    .settings__info {
+    #education-misssion-1 .settings__info {
         max-width: 341px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .settings__info {
+    #education-misssion-1 .settings__info {
         max-width: 441px;
         padding: 20px 0 0px 0px;
     }
 }
 
-.settings__box-imgs {
+#education-misssion-1 .settings__box-imgs {
     display: flex;
     justify-content: center;
 }
 
-.settings__img img {
+#education-misssion-1 .settings__img img {
     max-height: 80px;
 }
 
 @media screen and (min-width: 768px) {
-    .settings__img img {
+    #education-misssion-1 .settings__img img {
         max-height: 90px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .settings__img img {
+    #education-misssion-1 .settings__img img {
         max-height: initial
     }
 }
 
-
 @media screen and (min-width: 1200px) {
-    .settings__wrapper-box {
+    #education-misssion-1 .settings__wrapper-box {
         display: flex;
         justify-content: space-between;
     }
 }
 
-.settings__wrapper-text.settings__wrapper-text--true {
+#education-misssion-1 .settings__wrapper-text.settings__wrapper-text--true {
     display: block;
 }
 
-.settings__wrapper-text.settings__wrapper-text--false {
+#education-misssion-1 .settings__wrapper-text.settings__wrapper-text--false {
     display: none;
 }
